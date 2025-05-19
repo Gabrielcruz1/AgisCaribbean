@@ -1,0 +1,16 @@
+.navBarContainer {
+    background-color: #F7D0E8;
+    height: 60px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+}
+
+.logo {
+    height: 80px;
+    margin: 0px 0px 5px 0px;
+}
+
+.title-div {
+    text-align: center;
+    margin-top: -100px;
+}
