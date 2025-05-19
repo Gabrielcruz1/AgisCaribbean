@@ -3,8 +3,10 @@ import "../Styles/Footer.css"
 
 const Footer = () => {
   return (
-    <div className='footerContainer'>Footer - All rights reserved</div>
+    <div className='footerContainer'>
+      <p>Footer - All rights reserved</p>
+    </div>
   )
 }
 
-export default Footer
+export default Footer;

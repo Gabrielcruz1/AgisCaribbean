@@ -9,7 +9,7 @@ const Home = () => {
     <>
     <NavBar />
     <Hero />
-    <div className="main-content">Home</div>
+    <div className="main-content">Main Content</div>
     <Footer />
     </>
   )

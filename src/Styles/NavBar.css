@@ -1,16 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
 .navBarContainer {
+    position: fixed;       /* Keeps it stuck to the top */
+    top: 0;                /* Aligns it with the top of the viewport */
+    left: 0;               /* Ensures it starts from the left edge */
+    width: 100%; 
     background-color: #F7D0E8;
-    height: 60px;
+    height: 70px;
     padding: 20px;
-    margin: 0px 0px 20px 0px;
+    margin: -20px 0px 20px -10px;
 }
 
 .logo {
     height: 80px;
-    margin: 0px 0px 5px 0px;
+    margin: 3px 0px 10px -20px;
+
 }
 
 .title-div {
     text-align: center;
-    margin-top: -100px;
+    margin-top: -90px;
+    color: white;
+    font-family: "Rasa", serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 390;
+    font-style: italic;
 }
