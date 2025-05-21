@@ -1,8 +1,8 @@
-.main-content {
-    text-align: center;
+body {
+    background-color: black;
 }
 
-.yelp-reviews {
-    display: flex;
-    justify-content: space-between;
+.main-content {
+    text-align: center;
+    color: white;
 }

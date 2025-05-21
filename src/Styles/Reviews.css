@@ -1,0 +1,11 @@
+.yelp-reviews {
+    display: flex;
+    justify-content: space-between;
+    size: 100px;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}

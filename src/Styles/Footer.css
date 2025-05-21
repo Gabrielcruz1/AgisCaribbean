@@ -1,4 +1,6 @@
 .footerContainer {
     display: flex;
     justify-content: center;
+    /* background-color: #F7D0E8; */
+    color: white;
 }
