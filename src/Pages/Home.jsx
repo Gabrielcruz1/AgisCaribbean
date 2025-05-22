@@ -4,11 +4,19 @@ import Hero from '../Components/Hero'
 import Footer from '../Components/Footer'
 import Reviews from '../Components/Reviews'
 import "../Styles/Home.css"
+import Landing from "../assets/Landing.jpeg"
+import Menu from "../assets/Menu.jpeg"
 
 const Home = () => {
   return (
     <>
-    <NavBar />
+    <div className="content">
+      <img src={Menu} width="650px" height="650px"/>
+      <img src={Landing} width="650px" height="650px"/>
+    </div>
+
+
+    {/* <NavBar />
     <Hero />
     <div className="main-content">Order now </div>
     <iframe 
@@ -16,7 +24,7 @@ const Home = () => {
     </iframe>
     
     <Reviews />
-    <Footer />
+    <Footer /> */}
     </>
   )
 }

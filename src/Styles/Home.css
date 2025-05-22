@@ -6,3 +6,9 @@ body {
     text-align: center;
     color: white;
 }
+
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
