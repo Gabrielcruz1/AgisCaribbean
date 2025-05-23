@@ -4,7 +4,6 @@ import "../Styles/Footer.css"
 const Footer = () => {
   return (
     <div className='footerContainer'>
-      <p>New Site Coming Soon!</p> <br/>
       <p>Copyright © 2025 Agis Caribbean - All Rights Reserved.</p>
     </div>
   )

@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Rasa:ital,wght@0,300..700;1,300..700&display=swap');
+
 .footerContainer {
     text-align: center;
 }
 
 @media screen and (max-width: 480px) {
-    
+
     .footerContainer {
         text-align: center;
     }

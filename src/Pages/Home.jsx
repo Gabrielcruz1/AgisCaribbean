@@ -8,6 +8,8 @@ const Home = () => {
   return (
     <>
     {/* <img src={Logowhite} /> */}
+    <p className="bannerText">Nationwide shipping coming soon!!!</p> <br/>
+    <p className="inquiryText"> For wholesale email: <a className="email" href="mailto:agiscaribbean@gmail.com">agiscaribbean@gmail.com</a></p> <br/>
     <div className="content">
       <img src={Menu} />
       <img src={Landing} />

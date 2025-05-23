@@ -1,33 +1,49 @@
+body {
+    background-color: rgba(221, 214, 214, 0.467);
 
-.main-content {
-    text-align: center;
-    color: white;
 }
 
 .content{
     display: flex;
     justify-content: center;
-    margin-top: 70px;
 }
 
 img {
-    border-radius: 10px;
+    border-radius: 9px;
     width: 650px;
-    height: 650px;
+    height: 800px;
+}
+
+.bannerText {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inquiryText {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 22px;
+}
+.email {
+    text-align: center;
+    color: #007BFF;
 }
 
 @media screen and (max-width: 480px) {
 
     .content{
-        display: flex;
-        justify-content: center;
-        margin-top: 70px;
+        flex-direction: column;
+        align-items: center;
+
     }
     
     img {
         border-radius: 10px;
-        width: 1500px;
-        height: 300px;
+        width: 400px;
+        height: 540px;
     }
 
 }
