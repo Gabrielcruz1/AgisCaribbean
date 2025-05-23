@@ -46,4 +46,22 @@ img {
         height: 540px;
     }
 
+    .bannerText {
+        text-align: center;
+        font-weight: 600;
+        font-size: 1.5rem;
+        margin-top: 60px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .inquiryText {
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+        font-size: 22px;
+    }
+    .email {
+        text-align: center;
+        color: #007BFF;
+    }
+
 }
