@@ -1,6 +1,11 @@
 .footerContainer {
-    display: flex;
-    justify-content: center;
-    /* background-color: #F7D0E8; */
-    color: white;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    
+    .footerContainer {
+        text-align: center;
+    }
+    
 }

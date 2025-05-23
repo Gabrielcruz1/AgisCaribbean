@@ -1,15 +1,15 @@
 import React from 'react'
-import { Routes, Route } from "react-router-dom"
+// import { Routes, Route } from "react-router-dom"
 
 const Main = () => {
   return (
     <div>
-        <Routes>
+        {/* <Routes>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/cart" element={<Cart />}/>
             <Route path="/cart" element={<Cart />}/>
-        </Routes>
+        </Routes> */}
     </div>
   )
 }
